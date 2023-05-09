@@ -145,3 +145,27 @@ footer {
   .container{
     height:50vh;
   }
+
+  .foot{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  .footy{
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .big{
+   display: flex;
+   justify-content: center;
+  }
+
+  .card-body link{
+    width: 500px !important;
+  }
+
+  
+   
