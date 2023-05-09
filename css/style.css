@@ -3,11 +3,16 @@ footer {
     padding: 20px;
     background-color: black;
     color: white;
+    bottom: 0;
   }
 
 .body{
     background-color: white;
     color: black;
+}
+
+.navbar-expand-lg{
+    background-color: rgba(55,55,55,255) !important;
 }
 
 .laugh{
@@ -64,3 +69,79 @@ footer {
     background-color: black !important;
     color: white !important;
 }
+
+.flipcards{
+    display:flex;
+    justify-content:space-between;
+    height:50vh;
+    margin-bottom:300px;
+
+}
+
+.card {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 430px;
+    perspective: 1000px;
+    margin: auto;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front img {
+    width: 300px;
+    height: 400px;
+  }
+  
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background-color: rgb(0, 0, 0);
+    min-height: 430px !important;
+    font-size:5px !important;
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    padding: 3px;
+  }
+
+  .back-card-container {
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+  
+  .flip-card-back h2 {
+    /* margin-top: 26px; */
+    text-decoration: underline;
+    /* background-color: black; */
+  }
+  
+  .flip-card-back p {
+    /* margin-top: 30px; */
+    font-size: 19px;
+    /* background-color: black; */
+
+  }
+
+  .container{
+    height:50vh;
+  }
