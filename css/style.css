@@ -220,3 +220,15 @@ footer {
    .sky{
     width: 500px;
    }
+
+   .progress-bar1{
+    background-color: #ff0000 !important;
+   }
+
+   .progress-bar2{
+    background-color:  #005eff !important;
+   }
+
+   .progress-bar3{
+    background-color: #8712fb !important;
+   }
