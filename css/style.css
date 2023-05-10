@@ -1,3 +1,12 @@
+@media screen and (max-width:800px){
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+  }
+}  
 footer {
     text-align: center;
     padding: 20px;
@@ -5,7 +14,13 @@ footer {
     color: white;
     bottom: 0;
   }
-
+ 
+@media screen and (max-width:800px){
+  .body{
+    background-color: white;
+    color: black;
+  }
+}
 .body{
     background-color: white;
     color: black;
@@ -103,7 +118,7 @@ footer {
   
   .flip-card-front img {
     width: 300px;
-    height: 400px;
+    height: 500px;
   }
   
 
@@ -161,11 +176,47 @@ footer {
   .big{
    display: flex;
    justify-content: center;
+   align-items: center;
+   /* border: 2px solid red; */
   }
 
   .card-body link{
     width: 500px !important;
   }
 
+  .card{
+    height: 500px !important;
+  }
+
+  .self{
+    margin-bottom: 5rem;
+  }
   
-   
+.mind{
+  border: 2px solid black;
+  border-width: 5px;
+  width: 1200px !important;
+  margin: 6rem;
+  /* margin-bottom: 5rem; */
+}
+   .mom{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+   }
+
+   .mwah{
+    text-decoration: underline;
+   }
+
+   .bottom{
+    margin-bottom: 9rem;
+   }
+
+   .bubs{
+    width: 500px;
+   }
+
+   .sky{
+    width: 500px;
+   }
