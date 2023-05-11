@@ -47,7 +47,7 @@ footer {
 } */
 
 .img1{
-    width: 10rem;
+    width: 5rem;
 }
 
 /* .profile {
@@ -247,7 +247,7 @@ footer {
 
    }
 
-   @media screen and (max-width:300){
+   @media screen and (max-width:300px){
     img{
       width: 10rem;
       height: 5rem;
