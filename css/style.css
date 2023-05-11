@@ -1,33 +1,19 @@
-@media screen and (max-width:800px){
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: black;
-    color: white;
-    bottom: 0;
-  }
-}  
+ 
 footer {
     text-align: center;
     padding: 20px;
     background-color: black;
     color: white;
-    bottom: 0;
+    margin-top: 250px;
   }
- 
-@media screen and (max-width:800px){
-  .body{
-    background-color: white;
-    color: black;
-  }
-}
+
 .body{
     background-color: white;
     color: black;
 }
 
 .navbar-expand-lg{
-    background-color: rgba(55,55,55,255) !important;
+    background-color: black !important;
 }
 
 .laugh{
@@ -55,14 +41,18 @@ footer {
     align-content: space-around;
 } */
 
-.image{
-    border-radius: 1500px;
+/* .image{
+    border-radius: 5rem;
     margin-left: 500px;
-}
+} */
 
 .img1{
-    width: 200px;
+    width: 10rem;
 }
+
+/* .profile {
+  width: 100%;
+} */
 
 .h1{
     text-align: center;
@@ -231,4 +221,39 @@ footer {
 
    .progress-bar3{
     background-color: #8712fb !important;
+   }
+
+   @media screen and (max-width:720px){
+    .love{
+      margin-top: 0px;
+      font-family: sans-serif;
+      padding-left: 0px;
+      font-size: smaller;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .kill{
+      margin-bottom: 0px;
+    }
+
+    footer{
+      margin-top: 0px;
+    }
+/* 
+    .img-fluid{
+      margin-top: 3rem;
+    } */
+
+   }
+
+   @media screen and (max-width:300){
+    img{
+      width: 10rem;
+      height: 5rem;
+    }
+
+    footer{
+      margin-top: 0px;
+    }
    }
