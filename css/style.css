@@ -7,7 +7,7 @@ footer {
     padding: 20px;
     background-color: black;
     color: white;
-    margin-top: 5rem;
+    margin-top: 550px;
   }
 
 body{
@@ -16,7 +16,9 @@ body{
     min-height: 100vh;
 }
 
-
+.fire{
+  margin-bottom: -1000px;
+}
 
 .navbar-expand-lg{
     background-color: black !important;
@@ -208,6 +210,10 @@ body{
     text-align: center;
    }
 
+   /* .row{
+    margin-bottom: -30rem !important;
+   } */
+
    .mwah{
     text-decoration: underline;
    }
@@ -222,6 +228,10 @@ body{
 
    .sky{
     width: 500px;
+   }
+
+   .footerimg{
+    margin-top: -200px;
    }
 
    .progress-bar1{
