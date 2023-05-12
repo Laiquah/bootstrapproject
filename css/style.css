@@ -14,14 +14,8 @@ body{
     background-color: white;
     color: black;
     min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr auto;
 }
 
-nav, main, footer{
-  grid-column: 1 /-1;
-}
 
 
 .navbar-expand-lg{
@@ -258,10 +252,24 @@ nav, main, footer{
     }
 
     footer{
-      margin-top: 500px;
+      margin-top: 200px;
       bottom:0;
       font-size: x-small;
       /* margin-bottom: 300px; */
+    }
+
+    .footerbase {
+      margin-top: 800px;
+  }
+
+    .modfooter{
+      margin-top: 600px;
+    }
+
+    .footerimg{
+      margin-top: 2800px;
+      bottom:0;
+      font-size: x-small;
     }
     
     .love{
@@ -279,7 +287,7 @@ nav, main, footer{
     }
 
     .col{
-      width: 300px
+      width: 300px !important;
       display: inline-block !important;
       margin-bottom: 2rem;
     }
@@ -309,8 +317,8 @@ nav, main, footer{
     .leigh{
       /* max-width: 250px;
       max-height: 300px; */
-      display: flex;
-      justify-content: center;
+      display:  !important;
+      /* justify-content: center; */
     }
 
     .img1{
@@ -331,6 +339,7 @@ nav, main, footer{
     .hug{
       margin-bottom: 2rem;
     }
+
      .card{
       width: 200px !important;
      }
@@ -362,13 +371,33 @@ nav, main, footer{
       height: 5rem;
     }
 
-    footer{
+    .cardback{
+      margin-left: -200px;
+      margin-bottom: 200px;
+    }
+
+    base{
       margin-top: 0px;
       bottom:0;
       font-size: x-small;
       display: none;
     }
+
+    footer{
+      margin-top: 0px;
+      bottom:0;
+      font-size: x-small;
+    }
+
+    .footerimg{
+      margin-top: 2800px;
+      bottom:0;
+      font-size: x-small
+    }
     
+    .modfooter{
+      margin-top: 1300px;
+    }
     .big{
       flex-direction: column;
     }
@@ -378,7 +407,7 @@ nav, main, footer{
     }
 
     .projectimg{
-      width: 250px ;
+      width: 200px ;
     }
 
     .majiet{
@@ -405,7 +434,7 @@ nav, main, footer{
     .leigh{
       /* max-width: 250px;
       max-height: 300px; */
-      display: flex;
+      display: inline-block !important;
       justify-content: center;
     }
 
@@ -437,6 +466,12 @@ nav, main, footer{
       margin-left: 0px ;
 
      }
+
+     .col{
+      width: 200px;
+      display: inline-block !important;
+      margin-bottom: 2rem;
+    }
 
      .back{
       width: 200px !important;
